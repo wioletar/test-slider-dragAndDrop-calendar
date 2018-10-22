@@ -14,6 +14,7 @@ import java.awt.*;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.Month;
 import java.time.MonthDay;
 import java.util.Calendar;
@@ -35,25 +36,27 @@ public class CalendarTest extends BaseTest {
 //    All this moving to date should be done with one method
 
 
-    public static void main(String[] args) {
-        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        Date date = new Date();
-        String today=dateFormat.format(date);
-        System.out.println(today);
-    }
+//    public static void main(String[] args) {
+//        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+//        Date date = new Date();
+//        String today=dateFormat.format(date);
+//        System.out.println(today);
+//
+//    }
 
     @DataProvider(name = "inputDate")
     public static Object[][] inputDate() {
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Date date = new Date();
         String today=dateFormat.format(date);
-        return new Object[][] {{today},{"01/08/2018"}};
-
-        //, {"27/12/2018"},{"06/07/2018"},{"20/11/2017"}};
+        return new Object[][] {{"01/02/2019"},{today},{"27/12/2018"},{"06/07/2018"},{"20/11/2017"}};
     }
 
+
+
+
     @Test(dataProvider = "inputDate")
-    public void calendarTest(String inputDate) throws ParseException, InterruptedException { //dd/MM/yyyy
+    public void calendarTest2(String inputDate) throws ParseException, InterruptedException { //dd/MM/yyyy
         driver.get("https://jqueryui.com/datepicker/#other-months");
         WebElement frame = driver.findElement(By.cssSelector("iframe[class='demo-frame']"));
         driver.switchTo().frame(frame);
@@ -62,11 +65,12 @@ public class CalendarTest extends BaseTest {
 
         String currentMonth=driver.findElement(By.className("ui-datepicker-month")).getText(); //MMMM
         String currentYear=driver.findElement(By.className("ui-datepicker-year")).getText(); //yyyy
-        List<WebElement>listOfDays=driver.findElements(By.className("ui-state-default"));
+
 
         // input month as int -> 01/02/2019 -> 02
         String[] inputDateValue= inputDate.split("/");
-        int dayToSelect=Integer.parseInt(inputDateValue[0]);
+        String dayToSelect=inputDateValue[0];
+
         int monthToSelect = Integer.parseInt(inputDateValue[1]); //02
         int yearToSelect=Integer.parseInt(inputDateValue[2]);
 
@@ -75,6 +79,7 @@ public class CalendarTest extends BaseTest {
         DateTime instanceMonth        = formatMonth.withLocale(Locale.ENGLISH).parseDateTime(currentMonth);
         int month_number         = instanceMonth.getMonthOfYear();
         System.out.println(month_number);
+
         //year from website
         DateTimeFormatter formatYear = DateTimeFormat.forPattern("yyyy");
         DateTime instanceYear        = formatYear.withLocale(Locale.ENGLISH).parseDateTime(currentYear);
@@ -108,8 +113,19 @@ public class CalendarTest extends BaseTest {
             }
         }
     }
-        System.out.println(listOfDays.get(dayToSelect).getText());
-        listOfDays.get(dayToSelect).click();
+        List<WebElement> listOfDays=driver.findElements(By.cssSelector("tbody tr td"));
+        for(WebElement element:listOfDays){
+            if(Integer.valueOf(element.getAttribute("data-month")).equals(monthToSelect-1)){
+                WebElement dayElement=element.findElement(By.cssSelector("a"));
+                String dayElementString=dayElement.getText();
+                if(dayElementString.equalsIgnoreCase(dayToSelect)){
+                 element.click();
+                }
+            }
+        }
+        WebElement dateInput = driver.findElement(By.cssSelector("#datepicker"));
+        Assert.assertEquals(dateInput.getAttribute("value"), inputDate);
+
 
     }
 
