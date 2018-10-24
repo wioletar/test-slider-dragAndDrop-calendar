@@ -4,6 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.MainMenuPage;
+import pages.SliderPage;
+import pages.SliderSubmenuPage;
+
+import java.util.concurrent.TimeUnit;
 
 public class SliderTest extends BaseTest{
 
@@ -19,33 +24,20 @@ public class SliderTest extends BaseTest{
 
     @DataProvider(name = "Positions")
     public static Object[][] positions() {
-        return new Object[][] { {80}, {50},{55},{55}, {}};
+        return new Object[][] {{80}, {50},{55},{55}};
     }
 
     @Test(dataProvider = "Positions")
     public void testSlider(int position) throws InterruptedException {
-        driver.get("https://jqueryui.com/slider/#custom-handle");
-        WebElement frame = driver.findElement(By.cssSelector("iframe[class='demo-frame']"));
-        int i=70;
-        driver.switchTo().frame(frame);
-        WebElement slider = driver.findElement(By.id("custom-handle"));
-        move(position, slider);
-        Thread.sleep(4000);
+
+        MainMenuPage mainMenuPage = new MainMenuPage(driver);
+        mainMenuPage.openSlider();
+
+        SliderSubmenuPage sliderSubmenuPage = new SliderSubmenuPage(driver);
+        sliderSubmenuPage.chooseCustomHandle();
+
+        SliderPage sliderPage = new SliderPage(driver);
+        sliderPage.swtichToFrame();
+        sliderPage.move(position);
     }
-
-    private void move(int position, WebElement slider) {
-        slider.click();
-        // parseInt -> analizuje Stringa do Inta
-        if (Integer.parseInt(slider.getText())<position)
-            while (Integer.parseInt(slider.getText())!=position){
-                slider.sendKeys(Keys.ARROW_RIGHT);
-            }
-        else
-            while (Integer.parseInt(slider.getText())!=position){
-                slider.sendKeys(Keys.ARROW_LEFT);
-            }
-        Assert.assertEquals(Integer.parseInt(slider.getText()),position);
-    }
-
-
 }
