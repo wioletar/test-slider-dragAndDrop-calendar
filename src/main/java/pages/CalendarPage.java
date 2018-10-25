@@ -118,14 +118,16 @@ public class CalendarPage {
                 String dayOfMonth = innerDaysElement.getText();
                 if (dayOfMonth.equalsIgnoreCase(dayWanted)){
                     WebDriverWait wait = new WebDriverWait(driver, 10);
-                    element = wait.until(ExpectedConditions.elementToBeClickable(innerDaysElement));
-                    element.click();
+                    WebElement newElement = wait.until(ExpectedConditions.elementToBeClickable(innerDaysElement));
+                    newElement.click();
                 }
             }
         }
     }
 
     public void isCorrectDatePicked(String expectedDate){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement newElement2 = wait.until(ExpectedConditions.attributeToBe(isDatePicked,));
        Assert.assertEquals(isDatePicked.getText(), expectedDate);
     }
 

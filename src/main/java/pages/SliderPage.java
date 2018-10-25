@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class SliderPage {
 
     WebDriver driver;
-    WebDriverWait wait = new WebDriverWait(driver, 10);
+    WebDriverWait wait;
 
     public SliderPage(WebDriver driver) {
         this.driver = driver;
