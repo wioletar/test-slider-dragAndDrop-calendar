@@ -32,12 +32,11 @@ public class DatepickerTest extends BaseTest {
 
     @DataProvider(name = "inputDate")
     public static Object[][] inputDate() {
-        return new Object[][]{{"01.02.2019", "02/01/2019"}};
-//        ,
-//                {"06.07.2018", "07/06/2018"},
-//                {"20.11.2017", "11/20/2017"},
-//                {"today", LocalDate.now().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")) },
-//                {"27.12.2018", "12/27/2018"}};
+        return new Object[][]{{"01.02.2019", "02/01/2019"},
+                {"06.07.2018", "07/06/2018"},
+                {"20.11.2017", "11/20/2017"},
+                {"today", LocalDate.now().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")) },
+                {"27.12.2018", "12/27/2018"}};
     }
 
     @Test(dataProvider = "inputDate")
