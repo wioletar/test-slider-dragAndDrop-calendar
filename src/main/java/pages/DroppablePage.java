@@ -7,14 +7,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import java.util.Arrays;
 
-public class DroppablePage {
 
-    WebDriver driver;
+public class DroppablePage extends BasePage {
+
+
     Actions builder;
 
     public DroppablePage(WebDriver driver){
-        this.driver = driver;
+        super(driver);
         builder = new Actions(driver);
         PageFactory.initElements(driver, this);
     }
@@ -31,17 +33,21 @@ public class DroppablePage {
     @FindBy(css = ".ui-state-highlight")
     private WebElement droppedBox;
 
-    public void swtichToFrame(){
+    public DroppablePage swtichToFrame(){
         driver.switchTo().frame(frame);
+        return this;
     }
 
-    public void dragAndDrop(){
+    public DroppablePage dragAndDrop(){
+
         builder.dragAndDrop(dragBox,dropBox).build().perform();
         builder.release(dropBox).build().perform();
+        return this;
     }
 
     public void verifySuccess(){
-         Assert.assertEquals(droppedBox.getText(), "Dropped!");
+        waitForElements(Arrays.asList(droppedBox));
+        Assert.assertEquals(droppedBox.getText(), "Dropped!");
     }
 
 }

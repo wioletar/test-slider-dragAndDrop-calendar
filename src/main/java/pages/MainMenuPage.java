@@ -5,12 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MainMenuPage {
-    WebDriver driver;
+import java.util.Arrays;
+
+public class MainMenuPage extends BasePage{
+
 
     public MainMenuPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
+        waitUntilElementsVisible();
     }
 
     @FindBy(xpath = "//a[contains(text(),'Datepicker')]")
@@ -22,7 +25,9 @@ public class MainMenuPage {
     @FindBy(xpath = "//a[contains(text(),'Slider')]")
     private WebElement slider;
 
-
+    public void waitUntilElementsVisible(){
+        waitForElements(Arrays.asList(datapicker,droppable,slider));
+    }
     public void openDatepicker() {
         datapicker.click();
     }

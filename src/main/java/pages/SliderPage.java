@@ -1,25 +1,22 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import java.util.concurrent.TimeUnit;
 
-public class SliderPage {
 
-    WebDriver driver;
-    WebDriverWait wait;
+public class SliderPage extends BasePage {
+
+    Actions builder;
 
     public SliderPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+       super(driver);
+       PageFactory.initElements(driver, this);
     }
 
     @FindBy(css = "iframe[class='demo-frame']")
@@ -29,23 +26,33 @@ public class SliderPage {
     private WebElement slider;
 
 
-    public void swtichToFrame(){
+    public SliderPage swtichToFrame(){
         driver.switchTo().frame(frame);
+        return this;
     }
 
-    public void move(int position) {
+    public SliderPage clickSlider(){
+        builder = new Actions(driver);
+        builder.moveToElement( slider ).click( slider );
+        builder.perform();
+        return this;
+    }
 
-        slider.click();
-      //  WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement sliderAfterWait = wait.until(ExpectedConditions.elementToBeClickable(slider));
-        if (Integer.parseInt(sliderAfterWait.getText())<position)
-            while (Integer.parseInt(sliderAfterWait.getText())!=position){
-                sliderAfterWait.sendKeys(Keys.ARROW_RIGHT);
+    public SliderPage move(int position) {
+
+        if (Integer.parseInt(slider.getText())<position)
+            while (Integer.parseInt(slider.getText())!=position){
+                slider.sendKeys(Keys.ARROW_RIGHT);
             }
         else
-            while (Integer.parseInt(sliderAfterWait.getText())!=position){
-                sliderAfterWait.sendKeys(Keys.ARROW_LEFT);
+            while (Integer.parseInt(slider.getText())!=position){
+                slider.sendKeys(Keys.ARROW_LEFT);
             }
-        Assert.assertEquals(Integer.parseInt(slider.getText()),position);
+            return this;
     }
+    public SliderPage positionAssertion(int position){
+        Assert.assertEquals(Integer.parseInt(slider.getText()),position);
+        return this;
+    }
+
 }

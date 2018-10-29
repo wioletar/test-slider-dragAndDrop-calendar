@@ -5,11 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DatepickerSubmenuPage {
-    WebDriver driver;
+public class DatepickerSubmenuPage extends BasePage {
 
     public DatepickerSubmenuPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
     @FindBy(xpath = "//a[contains(text(),'Dates in other months')]")

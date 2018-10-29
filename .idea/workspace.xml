@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d443b43c-0ed1-4727-b860-ec5b356e25bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DroppableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CalendarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CalendarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CalendarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DroppablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DroppablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatepickerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SliderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,39 +113,40 @@
     <session id="1212211773">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="41" />
+          <entry key="class" value="15" />
+          <entry key="java" value="54" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="41" />
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="54" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="3170" />
+          <entry key="dummy" value="55" />
+          <entry key="java" value="4166" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3170" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="4166" />
+          <entry key="PLAIN_TEXT" value="55" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
@@ -143,22 +155,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DroppablePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DatepickerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SliderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="211">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,10 +167,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SliderPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,71 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DropableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/CalendarPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="129" column="90" selection-start-line="129" selection-start-column="90" selection-end-line="129" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1374#1375#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalendarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="211">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,17 +216,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/DroppablePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/DoppableSubmenuPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DropableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SliderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/DroppablePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SliderPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CalendarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/CalendarPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalendarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SliderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/SliderPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DropableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DroppablePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DroppableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatepickerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java" />
       </list>
     </option>
   </component>
@@ -303,7 +247,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -315,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,14 +319,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540459272625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540729188166" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-table" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -406,18 +350,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarTest.calendarTest">
-    <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+  <component name="RunManager" selected="TestNG.DatepickerTest.calendarTest">
+    <configuration name="DatepickerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatepickerTest" />
       <module name="jqueryui.com" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTest.calendarTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatepickerTest.calendarTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jqueryui.com" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="MAIN_CLASS_NAME" value="DatepickerTest" />
       <option name="METHOD_NAME" value="calendarTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -426,10 +370,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTest.calendarTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatepickerTest.calendarTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jqueryui.com" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="MAIN_CLASS_NAME" value="DatepickerTest" />
       <option name="METHOD_NAME" value="calendarTest2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -438,10 +382,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropableTest.dragAndDropTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroppableTest.dragAndDropTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jqueryui.com" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropableTest" />
+      <option name="MAIN_CLASS_NAME" value="DroppableTest" />
       <option name="METHOD_NAME" value="dragAndDropTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -463,19 +407,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CalendarTest.calendarTest" />
-      <item itemvalue="TestNG.CalendarTest.calendarTest2" />
-      <item itemvalue="TestNG.DropableTest.dragAndDropTest" />
+      <item itemvalue="TestNG.DatepickerTest.calendarTest" />
+      <item itemvalue="TestNG.DatepickerTest.calendarTest2" />
+      <item itemvalue="TestNG.DroppableTest.dragAndDropTest" />
       <item itemvalue="TestNG.SliderTest.testSlider" />
-      <item itemvalue="Application.CalendarTest" />
+      <item itemvalue="Application.DatepickerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalendarTest.calendarTest" />
+        <item itemvalue="TestNG.DatepickerTest.calendarTest" />
+        <item itemvalue="TestNG.DroppableTest.dragAndDropTest" />
         <item itemvalue="TestNG.SliderTest.testSlider" />
-        <item itemvalue="Application.CalendarTest" />
-        <item itemvalue="TestNG.DropableTest.dragAndDropTest" />
-        <item itemvalue="TestNG.CalendarTest.calendarTest2" />
+        <item itemvalue="Application.DatepickerTest" />
+        <item itemvalue="TestNG.DatepickerTest.calendarTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -493,42 +437,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 12h 46m 50s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 50m 15s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 13h 16m 33s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 50m 56s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 16h 01m 40s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 52m 53s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 16h 15m 59s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 53m 41s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 16h 35m 47s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 54m 48s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 16h 42m 44s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 55m 36s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 16h 56m 19s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 12h 58m 56s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 17h 30m 38s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 13h 00m 11s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 17h 31m 47s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 13h 07m 32s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarTest_calendarTest - 2018.10.24 at 18h 00m 00s.xml">
-      <configuration name="CalendarTest.calendarTest" configurationId="TestNG" />
+    <history-entry file="DatepickerTest_calendarTest - 2018.10.28 at 13h 09m 35s.xml">
+      <configuration name="DatepickerTest.calendarTest" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3067114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31275168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,11 +490,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.08211144" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28445747" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37096775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32991204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -556,7 +509,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3067114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31275168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -565,11 +518,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.08211144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36950147" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.06891496" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37096775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32991204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -588,26 +541,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/CalendarPage.java</url>
-          <line>130</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
+        <watch expression="isDatePicked.getText()" language="JAVA" />
         <watch expression="dropBox.getText()" language="JAVA" />
         <watch expression="slider.getText()" language="JAVA" />
-        <watch expression="isDatePicked.getText()" language="JAVA" />
+        <watch expression="yearInDate" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>yearInDate</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>isDatePicked.getText()</expression-string>
         <language-id>JAVA</language-id>
@@ -729,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="443" selection-start-line="443" selection-end-line="443" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -743,27 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="981" column="26" selection-start-line="981" selection-start-column="26" selection-end-line="981" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -776,52 +701,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="289">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CalendarPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="129" column="90" selection-start-line="129" selection-start-column="90" selection-end-line="129" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalendarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="294">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -830,42 +723,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SliderSubmenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DropableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DroppableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DroppableSubmenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/DroppablePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="-197">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerSubmenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -874,8 +785,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SliderPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="889" selection-start-line="889" selection-end-line="889" />
+          <folding>
+            <element signature="e#32680#32681#0" expanded="true" />
+            <element signature="e#32726#32727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#2034#2035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="360" selection-start-line="360" selection-end-line="360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="804" selection-start-line="804" selection-end-line="804" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatepickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DatepickerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
